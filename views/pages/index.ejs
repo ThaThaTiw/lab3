@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <?- include('../partials/head') -?>
+  <body>
+    <?- include('../partials/header') -?>
+    <?- include('../partials/nav') -?>
+    <div class="container text-center">
+      <h1 class="fs-3"><?= pageData.title ?></h1>
+      <p>
+        Welcome to
+        <?= pageData.title ?>
+      </p>
+    </div>
+    <?- include('../partials/footer') -?>
+  </body>
+</html>
+<div
+  id="carouselExampleAutoplaying"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="https://media.istockphoto.com/id/2167295140/photo/retro-computer-setup-featuring-crt-monitor-on-desk.webp?b=1&s=612x612&w=0&k=20&c=JUYiOqctzQWOJVKywB_Nf1n1tFNcjPZPVd0GMAl1LWo="
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://media.istockphoto.com/id/2170201079/photo/modern-elegant-living-room-interior-design-3d-render.webp?b=1&s=612x612&w=0&k=20&c=6pTFfrXROK82DS2l2_cnNic3inhtpVgZWAG0-T1Smzk="
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item">
+      <img
+        src="https://media.istockphoto.com/id/171137169/photo/colorful-graffiti-on-a-concrete-wall.webp?b=1&s=612x612&w=0&k=20&c=dCI5PcwD071wcmv2B34pGY7cL5caWktk3D3iSPjHOro="
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
